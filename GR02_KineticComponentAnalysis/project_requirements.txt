@@ -1,0 +1,37 @@
+Price Data:
+- Minuite bars into subsampled sections. ex. getPrices(2016-02-02, 2018-01-01, '7d')
+- log returns
+- Stationarity vs Memory:
+        *
+- Different technical indicators applied to the prices
+- see "feature indicators random forest" for technical indicators
+
+Algorithms:
+- KCA 
+- Kalman
+- EM
+- apache commons math3
+- Random Forest (maybe? it'd be really cool)
+
+UX: 
+- REST API?
+- If we do a rest api then we could quickly plug in a vuejs or angular frontend 
+
+Backtesting + Testing: 
+- We need a tester to check how well this is going
+- We also need some validation for our models
+- F-measure for buy/sell binary classification
+- Sharpe ratio
+- Receiver operating characteristic. Graph of true positive rate (sensitivity)  against false positive (1-specificity)
+
+
+
+
+
+
+NOTES:
+we just dont want to fit KCA. We want to predict.
+If the price goes up, 1
+If the proce goes down, -1
+Binary classification.
+
