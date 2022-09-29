@@ -48,8 +48,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "d3": "^5.0.0",
-    "d3fc": "^13.1.1",
+    "d3": "^7.6.1",
+    "d3fc": "^15.2.6",
     "electron-compile": "^6.4.2",
     "electron-devtools-installer": "^2.2.3",
     "electron-squirrel-startup": "^1.0.0",
